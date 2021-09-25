@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLICK WEB SERVICES</title>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.gif"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- NAVIGATION -->
+   <div class="w3-top"> 
+    <div class="w3-bar w3-black">
+        <span class="branding w3-bar-item w3-mobile">SLICK Web Services</span>
+        <span class="w3-right w3-mobile">
+          <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-blue">Home</a>
+          <a href="#about" class="w3-bar-item w3-button w3-mobile w3-hover-blue">About</a>
+          <a href="#services" class="w3-bar-item w3-button w3-mobile w3-hover-blue">Services</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-mobile w3-hover-blue">Contact</a>
+        </span>
+      </div>
+   </div> 
+
+      <!-- SHOWCASE -->
+      <section class="showcase">
+        <div class="w3-container w3-center">
+          <h1 class="w3-text-shadow w3-animate-opacity">Go Anywhere</h1>
+          <hr>
+          <p class="w3-animate-opacity">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quos, possimus fugiat a culpa officiis ea provident repellat, eius rerum pariatur dolor laboriosam maiores quas optio corporis. Magni eos voluptatem veniam labore vitae sequi non.</p>
+          <button onclick="document.getElementById('start-modal').style.display='block'" class="w3-button w3-blue w3-large w3-opacity">Start Here</button>
+        </div>
+      </section>
+
+      <!-- SECTION 1 -->
+      <section class="section w3-blue w3-hover-opacity">
+        <div class="w3-container w3-center">
+          <i class="fa fa-home"></i>
+          <h2>Welcome Home</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eos, consequuntur voluptates quo dolorem tenetur eligendi aliquam fugit porro deleniti.</p>
+        </div>
+      </section>
+
+      <!-- SECTION 2 -->
+      <section class="section w3-light-grey w3-hover-opacity">
+        <div class="w3-container w3-center">
+          <i class="fa fa-cog"></i>
+          <h2>Let's Begin</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eos, consequuntur voluptates quo dolorem tenetur eligendi aliquam fugit porro deleniti.</p>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <div class="w3-container">
+          <div class="w3-row-padding">
+            <div class="w3-col m5">
+              <img src="img/about.jpg">
+            </div>
+            <div class="w3-col m7">
+              <button onclick="accFunction('what')" class="w3-btn-block w3-left-align">
+                What We Do</button>
+                
+                <div id="what" class="w3-container w3-show">
+                  <h3>We Do It All</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta adipisci iste minus earum facere quis velit ex, ipsa consequatur, nobis aperiam sapiente voluptates dolores? Est dignissimos nam earum, nesciunt obcaecati at ipsam recusandae facere laudantium ab officiis sapiente numquam aperiam quis veniam nostrum rem quos, ex voluptatem quaerat id totam accusantium ut qui. Eligendi, aspernatur. Quos inventore aliquid commodi perferendis. Aspernatur quae qui impedit cum! Possimus ab dolor vel temporibus.</p>
+                </div>
+                <button onclick="accFunction('who')" class="w3-btn-block w3-left-align">
+                  What We Do</button>
+                  
+                  <div id="who" class="w3-container w3-hide">
+                    <h3>We Are Slick</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta adipisci iste minus earum facere quis velit ex, ipsa consequatur, nobis aperiam sapiente voluptates dolores? Est dignissimos nam earum, nesciunt obcaecati at ipsam recusandae facere laudantium ab officiis sapiente numquam aperiam quis veniam nostrum rem quos, ex voluptatem quaerat id totam accusantium ut qui. Eligendi, aspernatur. dolor vel temporibus.</p>
+                  </div>
+                  <button onclick="accFunction('where')" class="w3-btn-block w3-left-align">
+                    What We Do</button>
+                    
+                    <div id="where" class="w3-container w3-hide">
+                      <h3>We Are Everywhere</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta adipisci iste minus earum facere quis velit ex, ipsa consequatur, nobis a.</p>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES HEADING -->
+      <section id="services" class="section w3-blue w3-hover-opacity">
+        <div class="w3-container w3-center">
+          <h1 class="w3-text-shadow">OUR SERVICES</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eos, consequuntur voluptates quo dolorem tenetur eligendi aliquam fugit porro deleniti.</p>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="section w3-light-grey">
+        <div class="w3-container w3-center">
+          <div class="w3-row">
+            <div class="w3-col m3">
+              <i class="fa fa-comment w3-blue w3-padding-small w3-round-xlarge"></i>
+              <h3>Internet Marketing</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="w3-col m3">
+              <i class="fa fa-search w3-blue w3-padding-small w3-round-xlarge"></i>
+              <h3>SEO</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="w3-col m3">
+              <i class="fa fa-cubes w3-blue w3-padding-small w3-round-xlarge"></i>
+              <h3>Software Development</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="w3-col m3">
+              <i class="fa fa-cloud w3-blue w3-padding-small w3-round-xlarge"></i>
+              <h3>Cloud Hosting</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT HEADING -->
+      <section id="contact" class="section w3-dark-grey w3-hover-opacity">
+        <div class="w3-container w3-center">
+          <h1 class="w3-text-shadow">GET IN TOUCH</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eos, consequuntur voluptates quo dolorem tenetur eligendi aliquam fugit porro deleniti.</p>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section">
+        <div class="w3-container">
+          <div class="w3-card-4">
+            <div class="w3-container w3-dark-grey">
+              <h2>Contact Us</h2>
+            </div>
+            <form class="w3-container w3-padding-xlarge">
+            <label>Name</label>
+            <input class="w3-input" type="text">
+            <label>Email</label>
+            <input class="w3-input" type="text">
+            <label class="w3-input">Message</label>
+            <textarea class="w3-input w3-border" style="resize:none"></textarea>
+            <br>
+            <button type="submit" class="w3-button">Submit</button>
+            <br><br>
+            </form>
+            </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="w3-black w3-padding-xlarge w3-center">
+        <p>SLICK Web Services &copy; 2021</p>
+      </footer>
+
+      <!-- MODAL -->
+      <div id="start-modal" class="w3-modal">
+        <div class="w3-modal-content">
+          <header class="w3-container w3-blue">
+            <span onclick="document.getElementById('start-modal').style.display='none'" class="w3-closebtn">&times;</span>
+            <h2>Get Started</h2>
+          </header>
+
+          <div class="w3-container">
+            <form>
+              <div class="w3-section">
+                <label>Name</label>
+                <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Name">
+                <label>Username</label>
+                <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username">
+                <label>Password</label>
+                <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password">
+                <label>Confirm Password</label>
+                <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password">
+                <button class="w3-block w3-btn-block w3-section w3-padding">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        function accFunction(id) {
+          var x = document.getElementById(id);
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else {
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+        </script>        
+</body>
+</html>
